@@ -24,25 +24,17 @@ L'inscription a lieu au moment où le candidat **postule** à un sujet de thèse
 
 Le candidat crée un compte et postule à un sujet. L'encadrant examine la candidature. Si elle est retenue, le candidat dépose son dossier et l'administration remet le reçu.
 
-![Inscription simple](uml_inscription_simple.png)
-
 ## 2. Réinscription simple
 
 Le doctorant remplit le rapport d'activités. Le directeur de thèse donne l'avis du comité de thèse, puis le doctorant charge les documents signés. Le directeur de thèse, puis la structure et le CED confirment la réinscription. Le doctorant dépose enfin son dossier.
-
-![Réinscription simple](uml_reinscription_simple.png)
 
 ## 3. Inscription améliorée
 
 Après la candidature, le système notifie l'encadrant. Si la candidature est retenue, le système génère le dossier pré-rempli, le candidat le signe en ligne, puis le système vérifie que la période de dépôt est ouverte. Le candidat dépose alors son dossier, l'administration remet le reçu cacheté et délivre la carte du doctorant.
 
-![Inscription améliorée](uml_inscription_amelioree.png)
-
 ## 4. Réinscription améliorée
 
 Le système notifie chaque acteur à chaque étape. Les signatures se font en ligne. Le directeur de structure et le directeur du CED confirment **en parallèle** (barre fork/join). Le système génère la fiche signée et le doctorant dépose un dossier en une seule copie.
-
-![Réinscription améliorée](uml_reinscription_amelioree.png)
 
 ---
 
